@@ -1,0 +1,122 @@
+.Work {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.Work .bacround {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #D6EAFF;
+}
+
+.Work .img {
+    text-align: left;
+}
+
+.Work .img img {
+    width: 90%;
+    height: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.Work .right {
+    width: 100%;
+    margin: right;
+}
+
+.Work .right h2.title {
+    color: #0A84FF;
+}
+
+.Work .right p.text {
+    color: #0A84FF;
+    margin-top: 20px;
+}
+
+.Work .right form {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.Work .right form input {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    height: 64px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    line-height: 62px;
+    outline: none;
+    text-align: left;
+    color: #666;
+}
+
+.Work .right form .icon {
+    color: #666;
+    padding-left: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.Work .right form .click {
+    position: absolute;
+    top: 0px;
+    right: 20%;
+}
+
+.Work .right form .click a {
+    padding: 0px 20px;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600px;
+    color: white;
+    background-color: #0A84FF;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@media(max-width: 900px) {
+    .Work .img img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .Work .right {
+        margin: 50px 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    .Work .right h2.title {
+        font-size: 20px;
+    }
+    .Work .right p.text{
+        font-size: 13px;
+    }
+    .Work .right form input{
+        width: 100%;
+    }
+    .Work .right form .click{
+        right: 0;
+    }
+    .Work .right form .click a{
+        padding: 0px 5px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,22 @@
+.Center{
+    width: 100%;
+    margin-top: 150px;
+}
+.Center .box{
+    margin-top: 80px;
+    border-radius: 12px;
+    padding: 40px;
+    width: 98%;
+    height: 250px;
+    background-color: white;
+}
+.Center .box h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+@media(max-width: 900px){
+    .Center .box{
+        height: 400px;  
+    }
+}

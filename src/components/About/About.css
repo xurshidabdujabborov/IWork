@@ -1,0 +1,82 @@
+.About{
+    width: 100%;
+    padding-top: 150px;
+}
+.About .box{
+    display: flex;
+    align-items: center;
+}
+.About .card{
+    background-color: white;
+    margin: 30px 10px;
+}
+.About  .box .card{
+    width: 95%;
+    height: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.About .box .card h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+.About .right{
+    width: 100%;
+    position: relative;
+}
+.About .right img{
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.About .right .text{
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+}
+.About .right .text button{
+    font-size: 12px;
+    font-weight: 600;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+}
+.About .right .text h2.title{
+    color: white;
+    margin-top: 20px;
+}
+.About .right .text p{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+.About .right .text a{
+    display: block;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    background-color: #3D9EFF;
+    margin-top: 20px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+@media(max-width: 700px){
+    .About .box{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .About .right .text{
+        bottom: 20px;
+        left: 10px;
+    }
+}
